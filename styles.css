@@ -9,38 +9,37 @@ body {
   width: 100%;
   position: fixed;
   z-index: 2;
+  top: 0;
 }
 
 .navbar-brand {
   font-size: 14px !important;
 }
 
-.title_center {
-  height: 400px;
+.center_column {
+  flex-direction: column;
+  height: 100px;
+  width: 70%;
+  box-sizing: border-box;
+  margin-top: 390px;
+  margin-left: 27%;
 }
 
-.myName {
-  position: absolute;
-  top: 320px;
-  left: 235px;
+.name {
   color: white;
   text-shadow: 0.2px 0.2px black;
   opacity: 1;
 }
 
-.title {
-  position: absolute;
-  top: 370px;
-  left: 300px;
+.name_sub1 {
+  padding-left: 20px;
   color: white;
   text-shadow: 0.2px 0.2px black;
   opacity: 1;
 }
 
-.title_sub {
-  position: absolute;
-  top: 400px;
-  left: 320px;
+.name_sub2 {
+  padding-left: 20px;
   color: white;
   text-shadow: 0.2px 0.2px black;
   opacity: 1;
@@ -51,7 +50,7 @@ body {
   width: 100%;
   margin-top: 20%;
   background-color: #f5f5f5;
-  height: 900px;
+  height: 950px;
   display: flex;
   flex-flow: row wrap;
   justify-content: space-between;
@@ -83,14 +82,54 @@ p {
   color: gray;
   font-weight: 100;
   margin-right: 80px;
-  padding-bottom: 150px;
+  padding-bottom: 180px;
 }
 
 .landing_bottom {
   text-align: center;
-  padding-bottom: 40px;
+  width: 100%;
+  float: center;
 }
 
-.list-unstyled {
-  margin-left: 20px;
+.contactform {
+  width: 25%;
+  margin-left: 50px;
+  margin-right: 200px;
+  margin-top: 0px;
+  float: left;
+}
+
+.portfolio_projects {
+  display: flex;
+  flex-direction: row;
+}
+
+.project-container-1 {
+  padding: 5px;
+}
+
+.project-container-2 {
+  padding: 5px;
+}
+
+.project-container-3 {
+  padding: 5px;
+}
+
+.footer {
+  text-align: center;
+  background: #ddd;
+  width: 100%;
+}
+
+img:hover {
+  opacity: 0.7;
+}
+
+.form-group {
+  font-size: 12px;
+}
+
+.footer {
+  padding-top: 10px;
 }

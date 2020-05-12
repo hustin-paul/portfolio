@@ -36,21 +36,21 @@
       <div class="collapse navbar-collapse" id="navbarText">
         <ul class="navbar-nav mr-auto">
           <li class="nav-item">
-            <a class="nav-link" href="#">About</a>
+            <a class="nav-link" href="#aboutme">About</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Contact</a>
+            <a class="nav-link" href="mailto:hj.paul7@gmail.com">Contact</a>
           </li>
         </ul>
-        <span class="navbar-text">Github</span>
+        <span class="navbar-text"><a href="https://github.com/hustin-paul">Github</a></span>
       </div>
     </nav>
-    <div class="title_center">
-      <h1 class="myName">Hustin Jeffers</h1>
-      <h5 class="title">Web Development Student</h5>
-      <h6 class="title_sub">Eleven Fifty Academy</h6>
+    <div class="center_column">
+      <h1 class="name">Hustin Jeffers</h1>
+      <h5 class="name_sub1">Web Development Student</h5>
+      <h6 class="name_sub2">Eleven Fifty Academy</h6>
     </div>
-    <div class="landing">
+    <a id="aboutme"><div class="landing"></a>
       <div class="landing_content">
         <h4>About Me</h4>
         <hr />
@@ -63,8 +63,9 @@
             <li class="list-group-item">Intro into C++, Go</li>
           </ul>
           <div class="card-body">
-            <a href="#" class="card-link">LinkedIn</a>
-            <a href="#" class="card-link">Upwork</a>
+            <a href="https://www.linkedin.com/in/hustin-jeffers-3270571a8/" class="card-link">LinkedIn</a>
+            <a href="https://upwork.com" class="card-link">Upwork</a>
+            <a href="files/Hustin-Jeffers.pdf" class="card-link">Resume</a>
           </div>
         </div>
 
@@ -97,35 +98,40 @@
           </p>
         </div>
 
+       
+
         <div class="landing_bottom">
             <h3>My Projects</h3>
         </div>
+        <hr>
+<div class="portfolio_projects">
 
-        <ul class="list-unstyled">
-          <li class="media">
-            <img src="..." class="mr-3" alt="...">
-            <div class="media-body">
-              <h5 class="mt-0 mb-1">Static Layout</h5>
-A recreation of the Eleven Fifty Academy website.</div>
-          </li>
-          <li class="media my-4">
-            <img src="..." class="mr-3" alt="...">
-            <div class="media-body">
-              <h5 class="mt-0 mb-1">List-based media object</h5>
-              Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
-            </div>
-          </li>
-          <li class="media">
-            <img src="..." class="mr-3" alt="...">
-            <div class="media-body">
-              <h5 class="mt-0 mb-1">List-based media object</h5>
-              Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
-            </div>
-          </li>
-        </ul>
+  <div class="contactform">
+    <form action="https://formspree.io/myynzbpa"
+    method="POST">
+      <div class="form-group">
+        <h5>Want to get ahold of me?</h5>
+        <br>
+        <label for="exampleInputEmail1">Email address</label>
+        <input type="email" class="form-control" id="exampleInputEmail1" name="replyto">
+      </div>
+      <div class="form-group">
+        <label for="exampleFormControlTextarea1">Your message</label>
+        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+      </div>
+      <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+  </div>  
+        <div class="project-container-1"><a href="https://hustin-paul.github.io/staticLayout/"><img src="images/staticlayout.png" style="width:200px" alt="Static Layout"></a></div>
+        <div class="project-container-2"><a href="https://codepen.io/hustinpj7/full/wvKeMRZ"><img src="images/csscreature.png" style="width:200px" alt="CSS Creature"></a></div>
+        <div class="project-container-3"><a href="#"><img src="images/api.png" style="width:200px" alt="API"></a></div>
+      </div>
     </div>
 
-    
+  
+<div class="footer">
+  <h6>© 2020 Hustin Jeffers</h6>
+</div>    
 
     <script
       src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
