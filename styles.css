@@ -83,4 +83,9 @@ p {
   color: gray;
   font-weight: 100;
   margin-right: 40px;
+  padding-bottom: 170px;
+}
+
+.landing_bottom {
+  text-align: center;
 }
