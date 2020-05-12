@@ -54,7 +54,7 @@ body {
   height: 900px;
   display: flex;
   flex-flow: row wrap;
-  justify-content: center;
+  justify-content: space-between;
   align-items: stretch;
   float: left;
 }
@@ -82,10 +82,15 @@ p {
   float: left;
   color: gray;
   font-weight: 100;
-  margin-right: 40px;
-  padding-bottom: 170px;
+  margin-right: 80px;
+  padding-bottom: 150px;
 }
 
 .landing_bottom {
   text-align: center;
+  padding-bottom: 40px;
+}
+
+.list-unstyled {
+  margin-left: 20px;
 }
